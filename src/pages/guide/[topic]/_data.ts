@@ -6,13 +6,13 @@ export default function GuideData() {
 
 export const pages = [
   {
-    name: 'welcome',
-    displayName: 'welcome',
+    name: 'getting-started',
+    displayName: 'Getting Started',
     pages: [
       {
-        name: 'welcome.md',
+        name: 'welcome',
         displayName: 'Welcome',
-        component: lazy(() => import('../_guides/welcome/welcome.md')),
+        component: lazy(() => import('../_guides/getting-started/welcome.md')),
       },
     ],
   },
