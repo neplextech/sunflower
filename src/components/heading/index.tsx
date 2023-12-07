@@ -16,7 +16,7 @@ export function HeadingMeta(props: IProps) {
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
-      <link rel="icon" href="/icon.png" type="image/png" />
+      <link rel="icon" href="/icon.svg" type="image/svg+xml" />
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta
